@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@400;700;900&display=swap"
+    rel="stylesheet">
+  <!-- <link rel="stylesheet" href="build/css/styles.css"> -->
+  <link rel="stylesheet" href="build/css/cafetime.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <title>CafeTime</title>
+</head>
+
+<body>
+
+  
+  <header class="container header">
+    <div class="row align-items-center">
+      <div class="col-md-6 mb-5 mb-md-0">
+        
+        <span class="text-primary">CafeTime</span>
+        <h1 class="display-2">
+          Disfruta, el cafe del momento
+        </h1>
+        <p class="fs-3">
+          Visita nuestros locales y disfruta el placer del mejor cafe en compañia de tus amigos.
+        </p>
+        <a href="#" class="btn btn-primary">Conoce más</a>
+      </div>
+
+      <div class="col-md-6">
+        <img class="img-fluid" src="img/header.jpg" alt="imagen de cafe time header">
+
+      </div>
+
+    </div>
+  </header>
+
+  <section class="container">
+    <h2 class="fs-1 text-center text-primary">Nuestros Productos</h2>
+    <p class="text-center w-50 mx-auto">Conoce las distintas variedades de cafés, tés, pasteles y postres, todo artesanal, hecho por nuestras manos, maestras del dulce. Ambiente acogedor, especial para disfrutar los mejores momentos. Tenemos una amplia carta, que siempre te sorprenderá.</p>
+  
+      <div class="row">
+        <!--Pastel de Chocolate-->
+      <div class="col-md-4">
+      <figure>
+        <img class="img-fluid" src="img/figura3.png" alt="Pastel de Chocolate">
+      </figure>
+      <h3 class="text-secondary text-center fs-4">Pastel de Chocolate</h3>
+      <p class="text-center">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem minima voluptatibus laboriosam?
+      </p>
+    
+        <div class="container col-auto bg-danger p-4 text-center border">
+          
+          <button type="button" class="mt-5 mx-5 btn btn-secondary" data-bs-toggle="modal" data-bs-target="#pasteles">Conoce Más Pasteles</button>
+          <div class="modal fade" id="pasteles" tabindex="-1" aria-labelledby="pasteles" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="pasteles">Mas Pasteles</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-center">
+                  <div class="modal-body">                               
+                    <ul>
+                      <li><a href="#">Pastel de Galletas</a></li>
+                      <li><a href="#">Pastel de galletas</a></li>
+                      <li><a href="#">Pastel de nueces</a></li>
+                      <li><a href="#">Pastel de Manzana</a></li>
+                      <li><a href="#">Pastel de nueces</a></li>
+                      <li><a href="#">Pastel de Manzana</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <!--Cafe-->
+          <div class="col-md-4">
+      <figure>
+        <img class="img-fluid" src="img/figura2.png" alt="cafe">
+      </figure>
+      <h3 class="text-secondary text-center fs-4">Cafe Con Crema</h3>
+      <p class="text-center">
+        "Caffè crema" o su homónimo inglés "cream coffee", son los términos que se utilizaban para definir al café espresso producido por la extracción del grano de café con agua caliente a presión que conocemos hoy en día.
+      </p>
+      <div class="container col-auto bg-danger p-4 text-center">
+        <!-- Button trigger modal -->
+      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        Conoce Más Cafés
+        </button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Mas Cafés</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body text-center">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum aut corrupti vero itaque quidem veniam optio ea beatae aliquam tempore.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+    </div>
+  </div>
+</div>
+          
+        </div>
+      </div>
+<!--Postres-->
+      <div class="col-md-4">
+        <figure>
+          <img class="img-fluid" src="img/figura4.png" alt="Tiramisu">
+        </figure>
+        <h3 class="text-secondary text-center fs-4">Postre Tiramisú</h3>
+        <p class="text-center">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos, explicabo alias id atque tempore nobis
+          officiis at dolores expedita, in rem quae sapiente? Dolorum at a adipisci soluta ducimus esse!
+        </p>
+        <div class="container col-auto bg-danger p-4 text-center">
+          <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Conoce Más Postres
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Conoce Más Postres</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+        </div>
+      
+      
+      </div>
+      
+
+
+
+
+
+    </div>
+  </div>
+ </section>
+  
+  
+
+  <main class="container locales my-5">
+
+    <div class="d-flex justify-content-between">
+      <h2 class="text-primary">Descubre Nuestros Locales</h2>
+    </div>
+
+    <!-- Row de las Cards -->
+    <div class="row mt-4">
+      <!-- CARDS -->
+      <!-- Tarjeta1-->
+      <div class="col-md-6 col-lg-3">
+        <div class="card">
+          <img class="card-img-top" src="img/local2.jpeg" alt="img local 2">
+          <div class="card-body">
+              <h2 class="card-title fs-2 text-center text-primary">La Serena</h2>
+              <p class="card-text fw-bold descripcion text-primary ">Caupolicán # 125</p>
+               <p class="card-text fw-bold horarios text-center">Horario de Lunes a Viernes desde 10:00 a 22:00 hrs</p>
+          </div>
+          <div class="container col-auto bg-danger p-4 text-center">
+            <button type="button" class="mt-5 mx-5 btn btn-secondary" data-bs-toggle="modal" data-bs-target="#miModal">Encuentranos en Googlemaps</button>
+            <div class="modal fade" id="miModal" tabindex="-1" aria-hidden="true" aria-labelledby="modalTitle">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id=modalTitle>La Serena</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3459.603759985982!2d-71.25200678488889!3d-29.875699181944064!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9691b599b1a982ed%3A0xd00e9394913473aa!2sCaupolic%C3%A1n%20125%2C%20La%20Serena%2C%20Coquimbo!5e0!3m2!1ses-419!2scl!4v1641789301793!5m2!1ses-419!2scl" width="450" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                        </div>
+                    </div>
+                </div>
+  
+            </div>
+          </div>
+
+       
+        </div>
+      </div>
+      <!-- Tarjeta2-->
+      <div class="col-md-6 col-lg-3">
+        <div class="card">
+          <img class="card-img-top" src="img/local4.jpeg" alt="img local 2">
+          <div class="card-body">
+              <h2 class="card-title fs-2 text-center text-primary">Viña del Mar</h2>
+              <p class="card-text fw-bold descripcion text-primary ">San Martín # 611</p>
+               <p class="card-text fw-bold horarios text-center">Horario de Lunes a Viernes desde 10:00 a 22:00 hrs</p>
+          </div>
+          <div class="container col-auto bg-danger p-4 text-center">
+          <button type="button" class="mt-5 mx-5 btn btn-secondary" data-bs-toggle="modal" data-bs-target="#miModal">Encuentranos en Googlemaps</button>
+          <div class="modal fade" id="miModal" tabindex="-1" aria-hidden="true" aria-labelledby="modalTitle">
+              <div class="modal-dialog">
+                  <div class="modal-content">
+                      <div class="modal-header">
+                          <h5 class="modal-title" id=modalTitle>Viña del Mar</h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3345.5648789466245!2d-71.5580608855487!3d-33.01524538269267!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9689dde5eb6869cf%3A0x279b2eb02fa5a380!2zU2FuIE1hcnTDrW4gNjExLCBWacOxYSBkZWwgTWFyLCBWYWxwYXJhw61zbw!5e0!3m2!1ses-419!2scl!4v1641768051280!5m2!1ses-419!2scl" width="450" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                      </div>
+                  </div>
+              </div>
+
+          </div>
+        </div>
+
+       
+        </div>
+      </div>
+      <!-- Tarjeta3-->
+      <div class="col-md-6 col-lg-3">
+        <div class="card">
+          <img class="card-img-top" src="img/photo1jpg.jpeg" alt="img local 5">
+          <div class="card-body">
+              <h2 class="card-title fs-2 text-center text-primary">Santiago</h2>
+              <p class="card-text fw-bold descripcion text-primary ">Flor de Azucena # 19</p>
+               <p class="card-text fw-bold horarios text-center">Horario de Lunes a Viernes desde 10:00 a 22:00 hrs</p>
+          </div>
+          <div class="container col-auto bg-danger p-4 text-center">
+          <button type="button" class="mt-5 mx-5 btn btn-secondary" data-bs-toggle="modal" data-bs-target="#miMapa3">Encuentranos en Googlemaps</button>
+          <div class="modal fade" id="miMapa3" tabindex="-1" aria-hidden="true" aria-labelledby="modalTitle">
+              <div class="modal-dialog">
+                  <div class="modal-content">
+                      <div class="modal-header">
+                          <h5 class="modal-title" id=modalTitle>Las Condes</h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3330.52793768943!2d-70.57515308553364!3d-33.40947790279518!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662cedf7bd042b1%3A0x6b045bc55f2a22f4!2sFlor%20de%20Azucena%2019%2C%20Las%20Condes%2C%20Regi%C3%B3n%20Metropolitana!5e0!3m2!1ses-419!2scl!4v1641768855399!5m2!1ses-419!2scl" width="450" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                      </div>
+                  </div>
+              </div>
+
+          </div>
+        </div>
+
+       
+        </div>
+      </div>
+      <!-- Tarjeta4-->
+      <div class="col-md-6 col-lg-3">
+        <div class="card">
+          <img class="card-img-top" src="img/local4.jpeg" alt="img local 2">
+          <div class="card-body">
+              <h2 class="card-title fs-2 text-center text-primary">Puerto Varas</h2>
+              <p class="card-text fw-bold descripcion text-primary ">San Martín # 350</p>
+               <p class="card-text fw-bold horarios text-center">Horario de Lunes a Viernes desde 10:00 a 22:00 hrs</p>
+          </div>
+          <div class="container col-auto bg-danger p-4 text-center">
+          <button type="button" class="mt-5 mx-5 btn btn-secondary" data-bs-toggle="modal" data-bs-target="#miMapa4">Encuentranos en Googlemaps</button>
+          <div class="modal fade" id="miMapa4" tabindex="-1" aria-hidden="true" aria-labelledby="modalTitle">
+              <div class="modal-dialog">
+                  <div class="modal-content">
+                      <div class="modal-header">
+                          <h5 class="modal-title" id=modalTitle>Puerto Varas</h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2996.8420711394274!2d-72.98761668520139!3d-41.312299149931434!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x961827291aa8463f%3A0xc6efd0b61d9b3f0d!2sSan%20Mart%C3%ADn%20350%2C%20Puerto%20Varas%2C%20Los%20Lagos!5e0!3m2!1ses-419!2scl!4v1641769197361!5m2!1ses-419!2scl" width="450" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                      </div>
+                  </div>
+              </div>
+
+          </div>
+        </div>
+
+       
+        </div>
+      </div>
+      </div>
+      <!-- /CARDS-->
+    </div>
+    <!-- / Row de las Cards -->
+
+    <!-- Aplicaciones Moviles -->
+    <section class="app-movil container mt-5">
+      <div class="row">
+        <div class="offset-md-4 col-md-4">
+          <span class="d-block mx-auto text-primary">CafeTime</span>
+          <p class="text-center fw-bold mt-5 fs-4">Mantente Conectado. Descarga Coffe Time App</p>
+          <div class="d-flex gap-4">
+            <div class="col">
+              <a href="#">
+                <img class="img-fluid" src="img/svg/tienda-android.svg" alt="imagen apple store">
+              </a>
+            </div>
+            <div class="col">
+              <a href="#">
+                <img class="img-fluid" src="img/svg/tienda-apple.svg" alt="imagen apple store">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /Aplicaciones Moviles-->
+  </main>
+
+  <!-- Footer -->
+
+  <footer class="bg-dark mt-5 pt-4 pb-2 text-white">
+    <!-- Container -->
+    <div class="container">
+      <p class="fs-4 text-center">Nuestras redes Sociales</p>
+      <div class="d-flex justify-content-center">
+        <!-- Iconos -->
+        <i class="fs-2 fab me-3 fa-facebook"></i>
+        <i class="fs-2 fab me-3 fa-youtube"></i>
+        <i class="fs-2 fab me-3 fa-instagram"></i>
+      </div>
+      <div class="row mt-4">
+
+        <div class="col-md-4 text-center">
+          <p class="fs-5">Tu cuenta</p>
+          <nav class="nav flex-column">
+            <a class="nav-link" href="#">Registrate</a>
+            <a class="nav-link" href="#">Inicia Sesión</a>
+            <a class="nav-link" href="#">Ayuda</a>
+          </nav>
+        </div>
+
+        <div class="col-md-4 text-center">
+          <p class="fs-5">Descubrir</p>
+          <nav class="nav flex-column">
+            <a class="nav-link" href="#">Grupos</a>
+            <a class="nav-link" href="#">Calendario</a>
+            <a class="nav-link" href="#">Ofertas</a>
+            <a class="nav-link" href="#">Cuidades</a>
+            <a class="nav-link" href="#">Locales</a>
+            <a class="nav-link" href="#">Mapa</a>
+          </nav>
+        </div>
+
+        <div class="col-md-4 text-center">
+          <p class="fs-5">CafeTime</p>
+          <nav class="nav flex-column">
+            <a class="nav-link" href="#">Acerca de</a>
+            <a class="nav-link" href="#">Blog</a>
+            <a class="nav-link" href="#">Partners</a>
+            <a class="nav-link" href="#">Descuentos</a>
+            <a class="nav-link" href="#">Lorem ipsum</a>
+          </nav>
+        </div>
+
+
+      </div>
+    </div>
+    <!-- / Container -->
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2022 Copyright:
+      <a class="text-white" href="https://google.cl/"" target=_blank>CafeTime.cl</a>
+          </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+
+  <!-- Modal -->
+<div class="mt-5 modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Producto cafe</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img class="card-img-top" src="img/local4.jpeg" alt="img local 1">
+        
+          <p class="fw-bold horarios">Lu a Vi, desde 10:00 a 22:00 hrs</p>
+          <h3 class="fs-5">Lorem ipsum dolor sit.</h3>
+          <p class="descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate,
+            voluptatum. Dolore.</p>
+        
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+
+
+
+</html>
